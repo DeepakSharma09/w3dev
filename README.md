@@ -1,16 +1,78 @@
 # w3dev
 
-A new Flutter project.
+Flutter App with Google Login, Tabbed View, Notifications, and Splash Screen
 
-## Getting Started
+**Overview**
 
-This project is a starting point for a Flutter application.
+This Flutter application includes the following features:
 
-A few resources to get you started if this is your first Flutter project:
+Google Login using Firebase Authentication
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tabbed View with Home, Profile, and Settings/Notifications screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Local Notifications using flutter_local_notifications
+
+Splash Screen for a better user experience on startup
+
+Flutter App with Google Login, Tabbed View, Notifications, and Splash Screen
+
+**Features**
+
+1. **Google Login Integration**
+
+Users can sign in using their Google account.
+
+Displays user information (name, email, profile picture) after login.
+
+Uses google_sign_in and firebase_auth for authentication.
+
+Implements session management to keep users logged in.
+
+2. **Tabbed View Navigation**
+
+Home Screen: Displays a welcome message.
+
+Profile Screen: Shows user details and a logout option.
+
+Settings/Notifications Screen: Allows users to view and manage notifications.
+
+Uses TabBar and TabBarView for smooth navigation.
+
+3. **Local Notifications
+**
+Implements scheduled and instant notifications.
+
+Uses flutter_local_notifications for notification handling.
+
+Users can trigger notifications from the Settings tab.
+
+4. **Splash Screen**
+
+Displays a custom splash screen on app launch.
+
+Uses flutter_native_splash for better user experience.
+
+**Install Dependencies:**
+
+flutter pub get
+
+Set up Firebase Authentication:
+
+Follow Firebase setup instructions.
+
+Add google-services.json to the android/app directory.
+
+Run the App:
+
+flutter run
+
+**Dependencies**
+
+firebase_auth
+
+google_sign_in
+
+flutter_local_notifications
+
+flutter_native_splash
+
